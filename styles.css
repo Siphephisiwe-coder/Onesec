@@ -68,8 +68,8 @@ button { font-family: inherit; cursor: pointer; }
 .btn-outline-action:hover { transform: scale(1.03); background: rgba(108,160,255,0.08); box-shadow: 0 0 0 6px rgba(108,160,255,0.1); }
 .btn-outline-action.on-light { border-color: var(--action); color: var(--action); }
 .btn-sm { padding: 12px 20px; font-size: 13.5px; border-radius: 6px; }
-.btn-nav { background: var(--navy); border: 1.5px solid var(--action); color: #fff; }
-.btn-nav:hover { background: var(--action); border-color: var(--action); transform: scale(1.03); box-shadow: 0 0 0 6px rgba(46,125,255,0.16); }
+.btn-nav { background: #ffff; border: 1.5px solid var(--action); color: var(--muted-grey); font-weight: 600; }
+.btn-nav:hover { background: var(--action); border-color: var(--action); transform: scale(1.03); box-shadow: 0 0 0 6px rgba(46,125,255,0.16); color: #fff;}
 .btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
 
 /* ---------- Navbar ---------- */
